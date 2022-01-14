@@ -335,7 +335,7 @@ h6 {
 
 #keep:before {
     content: "";
-    background: rgba(164, 198, 243, 0.65);
+    background: rgba(251, 251, 252, 0.25);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -805,7 +805,7 @@ section {
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(14, 16, 17, 0.4);
+    background: rgba(14, 16, 17, 0.7);
 }
 
 .testimonials .section-header {
@@ -823,7 +823,7 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-    width: 100px;
+    width: 216px;
     border-radius: 50%;
     border: 6px solid rgba(255, 255, 255, 0.15);
     margin: 0 auto;
