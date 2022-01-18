@@ -335,7 +335,7 @@ h6 {
 
 #keep:before {
     content: "";
-    background: rgba(251, 251, 252, 0.38);
+    background: rgba(251, 251, 252, 0.43);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -805,7 +805,7 @@ section {
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(14, 16, 17, 0.7);
+    background: rgba(88, 120, 136, 0.57);
 }
 
 .testimonials .section-header {
@@ -1278,7 +1278,7 @@ section {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-    border-radius: 0.15;
+    border-radius: 0;
     box-shadow: none;
     font-size: 14px;
 }
