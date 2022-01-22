@@ -662,13 +662,17 @@ section {
     width: 1px;
     height: 10px;
     transition: 0.9s;
-    background-color: #ffb727;
+    background-color: #da9d25;
 }
 
 
 /*--------------------------------------------------------------
 # My Resume
 --------------------------------------------------------------*/
+
+b {
+    color: #ccc;
+}
 
 .resume .resume-title {
     font-size: 26px;
