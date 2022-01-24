@@ -64,6 +64,6 @@ GitPage 上傳 / 10 分
 
 繳交方式
 完整代碼上傳 Github ClassRoom 至指定 repository，並於說明欄位提供 個人 GitPage 之預覽連結（前項第 6 點動作）
-==http://220.128.133.15/s1100417/hw_spa/==
-==https://githubfollowme.github.io/keephub/==
+http://220.128.133.15/s1100417/keep_spa/
+https://githubfollowme.github.io/keephub/
 >>>>>>> 63b34f876b219f8f3bf82915deb65bc05e6db093
