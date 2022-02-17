@@ -8,7 +8,15 @@
     <title>Wei's Resume</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TJGVDE2YV5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-TJGVDE2YV5');
+</script>
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -17,11 +25,12 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -121,7 +130,7 @@
                                 <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
                                     <div class="count-box">
                                         <i class="bi bi-emoji-smile" style="color: #20b38e;"></i>
-                                        <span data-purecounter-start="0" [data-purecounter-end]="" data-purecounter-duration="3" class="purecounter"></span>
+                                        <span data-purecounter-start="0" data-purecounter-end="119" data-purecounter-duration="3" class="purecounter"></span>
                                         <!-- document.querySelectorAll("[data-purecounter-end]").  -->
                                         <!-- <p><em data-aos="fade-up" data-aos-delay="100" class="hrs"> </em>Days</p> -->
                                         <p><strong>Taishan Programming Training</strong> <b id="iDays"></b> Days official training since 2021.09.27</p>
@@ -826,7 +835,7 @@
     console.log(getDateDiff);
     document.getElementById("iDays").innerText = getDateDiff;
     // chk the line 124
-    document.querySelectorAll("[data-purecounter-end]").innerText = iDays;
+    document.querySelector(".purecounter").innerText = 500;
     //老師說 Data-系列不是css選擇器，不能這樣用 Queryselector裏只能放選擇器 於是用span另起class
     // 但找到了其他方法..
 </script>
